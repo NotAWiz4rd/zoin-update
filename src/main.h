@@ -187,11 +187,11 @@ static const int DevRewardStopBlock = 255250;
 #define ZC_V2_TESTNET_SWITCH_ID_50 4
 #define ZC_V2_TESTNET_SWITCH_ID_100 10
 
-#define ZC_V1_5_STARTING_BLOCK          262500
-#define ZC_V1_5_TESTNET_STARTING_BLOCK  200
+#define ZC_V1_5_STARTING_BLOCK          261500
+#define ZC_V1_5_TESTNET_STARTING_BLOCK  37954
 
-#define ZC_V1_5_GRACEFUL_PERIOD		500
-#define ZC_V1_5_GRACEFUL_MEMPOOL_PERIOD	1500
+#define ZC_V1_5_GRACEFUL_PERIOD		1500
+#define ZC_V1_5_GRACEFUL_MEMPOOL_PERIOD	500
 
 // Number of coins per id in spend v1/v1.5
 #define ZC_SPEND_V1_COINSPERID			10
@@ -199,10 +199,10 @@ static const int DevRewardStopBlock = 255250;
 #define ZC_SPEND_V2_COINSPERID			10000
 
 // Version of index that introduced storing accumulators and coin serials
-#define ZC_ADVANCED_INDEX_VERSION           130100
+#define ZC_ADVANCED_INDEX_VERSION           130500
 
 // Version of wallet.db entry that introduced storing extra information for mints
-#define ZC_ADVANCED_WALLETDB_MINT_VERSION	130100
+#define ZC_ADVANCED_WALLETDB_MINT_VERSION	130504
 
 // number of mint confirmations needed to spend coin
 #define ZC_MINT_CONFIRMATIONS               6
