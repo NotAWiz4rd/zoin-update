@@ -41,7 +41,7 @@ def determine_db_dir():
         return os.path.expanduser("~/Library/Application Support/Zoin/")
     elif platform.system() == "Windows":
         return os.path.join(os.environ['APPDATA'], "Zoin")
-    return os.path.expanduser("~/.bitcoin")
+    return os.path.expanduser("~/.zoin")
 
 def read_bitcoin_config(dbdir):
     """Read the bitcoin.conf file from dbdir, returns dictionary of settings"""
