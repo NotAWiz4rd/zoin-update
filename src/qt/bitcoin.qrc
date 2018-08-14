@@ -61,9 +61,6 @@
         <file alias="settings">res/icons/nav-settings.png</file>
         <file alias="notsynced">res/icons/notsynced.png</file>
         <file>res/icons/old_bitcoin_testnet.ico</file>
-        <file>res/icons/old_bitcoin.icns</file>
-        <file alias="old_bit">res/icons/old_bitcoin.ico</file>
-        <file alias="old_bitcoin">res/icons/old_bitcoin.png</file>
         <file alias="open">res/icons/open.png</file>
         <file alias="overview">res/icons/overview.png</file>
         <file alias="qrcode">res/icons/qrcode.png</file>
