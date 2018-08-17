@@ -1,5 +1,6 @@
-Zoin
-=============================
+Zoin 0.13.1.8 - UNDER DEVELOPMENT
+==================================
+[![Build Status](https://travis-ci.org/LindaSunshine/zoin-update.svg?branch=master)](https://travis-ci.org/LindaSunshine/zoin-update)
 
 What is Zoin?
 -------------
@@ -12,7 +13,7 @@ Zoin is the implementation of the Zerocoin protocol ( http://zerocoin.org ) guar
  - Subsidy halves every 210,000 blocks (approximately 12 months)
 
 For more information, as well as an immediately useable, binary version of
-the zoin client sofware, see https://github.com/zoinofficial/zoin/releases.
+the zoin client sofware, see https://TBD.
 
 
 License
@@ -41,7 +42,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/zoinofficial/zoin/tags) are created
+completely stable. [Tags](https://TBD/tags) are created
 regularly to indicate new official, stable release versions of Zoin.
 
 
@@ -75,7 +76,7 @@ Build
 ----------------------
 1.  Clone the source:
 
-        git clone https://github.com/zoinofficial/zoin
+        git clone https://github.com/LindaSunshine/zoin-update
 
 2.  Build Zoin-core:
 
