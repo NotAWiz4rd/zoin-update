@@ -19,6 +19,7 @@
 #include "wallet/walletdb.h"
 #include "wallet/rpcwallet.h"
 #include "../base58.h"
+#include "zerocoin_params.h"
 
 #include <algorithm>
 #include <map>

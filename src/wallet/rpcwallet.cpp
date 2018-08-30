@@ -3,9 +3,6 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-//btzc: N value
-#define ZEROCOIN_MODULUS   "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784406918290641249515082189298559149176184502808489120072844992687392807287776735971418347270261896375014971824691165077613379859095700097330459748808428401797429100642458691817195118746121515172654632282216869987549182422433637259085141865462043576798423387184774447920739934236584823824281198163815010674810451660377306056201619676256133844143603833904414952634432190114657544454178424020924616515723350778707749817125772467962926386356373289912154831438167899885040445364023527381951378636564391212010397122822120720357"
-
 #include "amount.h"
 #include "base58.h"
 #include "chain.h"
@@ -2686,12 +2683,12 @@ UniValue spendzerocoin(const UniValue &params, bool fHelp) {
 
     if (fHelp || params.size() < 1 || params.size() > 2)
         throw runtime_error(
-                "spendzerocoin <amount>(1,10,25,50,100) (\"zcoinaddress\")\n"
+                "spendzerocoin <amount>(1,10,25,50,100) (\"zoinaddress\")\n"
                 + HelpRequiringPassphrase() +
                 "\nArguments:\n"
                 "1. \"amount\"      (numeric or string, required) The amount in " + CURRENCY_UNIT +
                 " to send. currently options are following 1, 10, 25, 50 and 100 only\n"
-                "2. \"zcoinaddress\"  (string, optional) The zcoin address to send to third party.\n"
+                "2. \"zoinaddress\"  (string, optional) The zoin address to send to third party.\n"
                 "\nExamples:\n"
                 + HelpExampleCli("spendzerocoin", "10 \"a1kCCGddf5pMXSipLVD9hBG2MGGVNaJ15U\"")
         );
